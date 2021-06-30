@@ -7,32 +7,61 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    text-align: center;  /* texto centrado */
+    display: block;
 
 }
 
 
+
 /* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
-
-
+#ejerciciodos{
+    display: none;  /* texto oculto */
+}
 
 /* Ejercicio 3: */
 
-/* Acá va tu código */
+#ejercicioTres {
+    margin: 100px;   /* rodar las imagenes a los margenes adecuados */
+    margin-left: 200px;
+}
 
 
 
 /* Ejercicio 4: */
 
-/* Acá va tu código */
+#ejercicioCuatro{
+    position: fixed; /*posicion de la imagen fija al ancestro mas cercano "fixed" se muebe con la pagina y un top estipulado en px*/
+    top: 0px;
+    left: 0px;
+
+}
 
 
 
 /* Ejercicio 5: */
 
-/* Acá va tu código */
+#ejercicioCinco{
+    justify-content: space-around
+  
+}
 
 
 
 /* Ejercicio 6. */
+#ejerciciocinco{ 
+display: flex;
+flex-direction: row-reverse; /* posiciona la direccion del texto */
+justify-content:center ;
+align-items: center;
+
+}
+
+
+
+#ejercicioSiete{
+    flex-direction: column;
+align-items: ;
+
+
+}
